@@ -4,7 +4,7 @@
 npm install in each folder
 
 # Deploy
-npx hardhat run scripts/deploy_NFT.js --network sepolia (in marketPlace folder)
+npx hardhat run scripts/deploy_NFT.js --network <networkName> (in marketPlace folder)
 
 # Test
-npx hardhat test scripts/test.js --network sepolia (in each folder)
+npx hardhat test scripts/test.js --network <networkName> (in each folder)
